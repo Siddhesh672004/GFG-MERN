@@ -3,7 +3,7 @@ var temp = n;
 var sum = 0;
 
 while(temp > 0){
-	var digit = temp % 10;
+   var digit = temp % 10;
    sum += digit ** 3;
    temp = parseInt(temp/10);
 }
